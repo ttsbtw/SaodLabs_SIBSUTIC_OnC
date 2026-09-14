@@ -1,0 +1,7 @@
+*.pdf
+*.o
+*.out
+venv/
+__pycache__/
+.DS_Store
+kyrsovaya.md
