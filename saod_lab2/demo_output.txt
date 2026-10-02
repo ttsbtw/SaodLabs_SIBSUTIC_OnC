@@ -1,0 +1,177 @@
+
+Вставка romane = 1
+""
+  "romane" * = 1
+
+Вставка romanus = 2
+""
+  "roman"
+    "e" * = 1
+    "us" * = 2
+
+Вставка romulus = 3
+""
+  "rom"
+    "an"
+      "e" * = 1
+      "us" * = 2
+    "ulus" * = 3
+
+Вставка rubens = 4
+""
+  "r"
+    "om"
+      "an"
+        "e" * = 1
+        "us" * = 2
+      "ulus" * = 3
+    "ubens" * = 4
+
+Вставка ruber = 5
+""
+  "r"
+    "om"
+      "an"
+        "e" * = 1
+        "us" * = 2
+      "ulus" * = 3
+    "ube"
+      "ns" * = 4
+      "r" * = 5
+
+Вставка rubicon = 6
+""
+  "r"
+    "om"
+      "an"
+        "e" * = 1
+        "us" * = 2
+      "ulus" * = 3
+    "ub"
+      "e"
+        "ns" * = 4
+        "r" * = 5
+      "icon" * = 6
+
+Вставка rubicundus = 7
+""
+  "r"
+    "om"
+      "an"
+        "e" * = 1
+        "us" * = 2
+      "ulus" * = 3
+    "ub"
+      "e"
+        "ns" * = 4
+        "r" * = 5
+      "ic"
+        "on" * = 6
+        "undus" * = 7
+
+Вставка roman = 8
+""
+  "r"
+    "om"
+      "an" * = 8
+        "e" * = 1
+        "us" * = 2
+      "ulus" * = 3
+    "ub"
+      "e"
+        "ns" * = 4
+        "r" * = 5
+      "ic"
+        "on" * = 6
+        "undus" * = 7
+
+Повторная вставка roman = 1000
+Поиск roman: найдено, значение = 1000
+Поиск rom: не найдено
+Поиск rubicon: найдено, значение = 6
+Поиск missing: не найдено
+
+Удаление roman
+""
+  "r"
+    "om"
+      "an"
+        "e" * = 1
+        "us" * = 2
+      "ulus" * = 3
+    "ub"
+      "e"
+        "ns" * = 4
+        "r" * = 5
+      "ic"
+        "on" * = 6
+        "undus" * = 7
+
+Удаление romane
+""
+  "r"
+    "om"
+      "anus" * = 2
+      "ulus" * = 3
+    "ub"
+      "e"
+        "ns" * = 4
+        "r" * = 5
+      "ic"
+        "on" * = 6
+        "undus" * = 7
+
+Удаление rubens
+""
+  "r"
+    "om"
+      "anus" * = 2
+      "ulus" * = 3
+    "ub"
+      "er" * = 5
+      "ic"
+        "on" * = 6
+        "undus" * = 7
+
+Удаление missing
+""
+  "r"
+    "om"
+      "anus" * = 2
+      "ulus" * = 3
+    "ub"
+      "er" * = 5
+      "ic"
+        "on" * = 6
+        "undus" * = 7
+
+Удаление romanus
+""
+  "r"
+    "omulus" * = 3
+    "ub"
+      "er" * = 5
+      "ic"
+        "on" * = 6
+        "undus" * = 7
+
+Удаление romulus
+""
+  "rub"
+    "er" * = 5
+    "ic"
+      "on" * = 6
+      "undus" * = 7
+
+Удаление ruber
+""
+  "rubic"
+    "on" * = 6
+    "undus" * = 7
+
+Удаление rubicon
+""
+  "rubicundus" * = 7
+
+Удаление rubicundus
+""
