@@ -5,7 +5,7 @@
 int main(void)
 {
     struct rtree *root = rtree_create();
-    char *keys[] = {"romane", "romanus", "romulus", "rubens", "ruber", "rubicon", "rubicundus", "roman"};
+    char *keys[] = {"romane", "romanus", "romulus", "rubens", "ruber", "rubicon", "rubicundus", "roman", "missing"};
     for (size_t i = 0; i < sizeof(keys) / sizeof(keys[0]); ++i) {
         printf("\nВставка %s = %zu\n", keys[i], i + 1);
         root = rtree_insert(root, keys[i], (uint32_t)i + 1);
