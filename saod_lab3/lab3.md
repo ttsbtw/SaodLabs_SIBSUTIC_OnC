@@ -9,14 +9,11 @@
 
 - struct minheap *minheap_min(struct minheap *heap);
 
-- struct minheap *minheap_union(struct minheap *heap1,
-
-- struct minheap *heap2);
+- struct minheap *minheap_union(struct minheap *heap1, struct minheap *heap2);
 
 - struct minheap *minheap_extractmin(struct minheap *heap);
 
-- struct minheap *minheap_decrease_key(struct minheap *heap,
-  int key, int newkey);
+- struct minheap *minheap_decrease_key(struct minheap *heap, int key, int newkey);
 
 - struct minheap *minheap_delete(struct minheap *heap, int key);
 
@@ -30,14 +27,12 @@
 - struct fibheap *fibheap_insert(struct fibheap *heap, int key, char *value);
 
 - struct fibheap *fibheap_min(struct fibheap *heap);
-  struct fibheap *fibheap_union(struct fibheap *heap1,
 
-- struct fibheap *heap2);
+- struct fibheap *fibheap_union(struct fibheap *heap1, struct fibheap *heap2);
 
 - struct fibheap *fibheap_extractmin(struct fibheap *heap);
-  struct fibheap *fibheap_decrease_key(struct fibheap *heap,
 
-- struct fibheap *fibheap_delete(struct fibheap *heap, int key);
+- struct fibheap *fibheap_decrease_key(struct fibheap *heap, struct fibheap *fibheap_delete(struct fibheap *heap, int key);
 
 - struct fibheap *node, int newkey);
 
@@ -109,5 +104,3 @@
 - Алгоритм удаления узла с наименьшим приоритетом (уплотнение списка корней — consolidate).
 
 - Распространенность и области практического применения фибоначчиевых куч.
-
-
